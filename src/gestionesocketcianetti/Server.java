@@ -57,8 +57,7 @@ public class Server
                 //3 scambio dati - lettura messaggio client
                 InputStream is = socket.getInputStream();
                 BufferedReader br = new BufferedReader( new InputStreamReader (is));
-                br.readLine();
-                
+                System.out.println(br.readLine());                   
                 
             } 
 
